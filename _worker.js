@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
-    const day1 = 'pro-imkcproxy.koyeb.app'
-    const day2 = 'pro-imkcproxy.koyeb.app'
+    const day1 = 'p01--imkcpxx--default-project--f9hx-vrlh.code.run'
+    const day2 = 'p01--imkcpxx--default-project--f9hx-vrlh.code.run'
     let url = new URL(request.url);
     if (url.pathname.startsWith('/')) {
       let day = new Date()
